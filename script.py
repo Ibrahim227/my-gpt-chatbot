@@ -10,7 +10,7 @@ print(os.environ.get("OPENAI_API_KEY"))
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
-# connect to API key
+# connect to an API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Example OpenAI Python library request
